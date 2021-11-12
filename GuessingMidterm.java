@@ -13,7 +13,7 @@ public class GuessingMidterm {
         Scanner input = new Scanner(System.in);
         int attempt;
         boolean stop = false;
-        System.out.println(secretNum);
+
         while (!stop && userAttempts <= 10) {
             System.out.println("Can you guess what number, between 1 - 100, I am thinking of? ");
             attempt = input.nextInt();
